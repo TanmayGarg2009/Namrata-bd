@@ -20,7 +20,11 @@ body {
 .container div.six {
   top: 10vh;
   z-index: 1;
+  text-align: left;       /* aligns text inside to the left */
+  margin-left: 0;         /* aligns the div itself to the left */
+  justify-content: flex-start; /* only needed if parent uses flex */
 }
+
 
 .container div.seven,
 .container div.eight {
